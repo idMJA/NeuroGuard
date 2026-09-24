@@ -1,0 +1,1 @@
+timestamp,uptime_ms,risk_level,risk_score,ppg_hr,ppg_spo2,ppg_attached,imu_acc_g,imu_fall,eeg_dar,eeg_sq,eeg_delta,eeg_theta,gps_locked,gps_sats

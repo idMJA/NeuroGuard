@@ -1,0 +1,16 @@
+{
+  "name": "neuroguard-tools",
+  "version": "1.0.0",
+  "module": "tools/record_telemetry.ts",
+  "type": "module",
+  "scripts": {
+    "record": "bun run tools/record_telemetry.ts"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "^10.5.0",
+    "serialport": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

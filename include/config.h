@@ -40,7 +40,7 @@
 #define PPG_HR_BRADY_BPM          45      // Severe Bradycardia
 #define PPG_HR_TACHY_BPM          130     // Severe Tachycardia
 #define PPG_SPO2_HYPOXIA_PCT      92      // Cerebral Hypoxia threshold (< 92%)
-#define PPG_FINGER_DETECT_IR      7000    // Sensitive IR contact threshold (triggers on finger/skin touch)
+#define PPG_FINGER_DETECT_IR      3000    // Sensitive IR contact threshold (optimized for forehead / thin elderly skin)
 
 // EEG Biomarker Thresholds (Neuro-vascular / Stroke index)
 #define EEG_DAR_ALERT_THRESH      3.5f    // Delta-Alpha Ratio Slowing Index (> 3.5 = Severe slowing)
